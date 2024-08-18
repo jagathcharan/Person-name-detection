@@ -21,6 +21,7 @@ This project involves the development of a person detection system using Convolu
 
 ## Data Generation
 
+By giving the access to the veb cam the viedo will be recorder those are splitted as the images 
 1. **Video Splitting**: Videos were split into individual frames, with each frames representing a single person.
 2. **Folder Structure**: Each person’s images were organized into separate folders named after the person.
 
@@ -31,6 +32,7 @@ The generated images were annotated to create a dataset suitable for training th
 ## Feature Extraction
 
 Features were extracted from the annotated images and saved in `.npy` format. The extracted features are used for training the CNN model.
+This project uses a pre-trained VGG16 model to extract features from face images for face recognition. The extracted features can be used for training a machine learning model to recognize and classify faces.
 
 ## Training the CNN
 
@@ -62,5 +64,5 @@ The trained CNN model was verified using a separate validation dataset to ensure
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/jagathcharan/Person-name-detection
+   cd /person_name_dection
