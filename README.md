@@ -58,11 +58,11 @@ The trained CNN model was verified using a separate validation dataset to ensure
 - NumPy
 - TensorFlow/Keras
 - OpenCV
-- Other required libraries (specified in `requirements.txt`)
+- need cuda
 
 ## Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/jagathcharan/Person-name-detection
-   cd /person_name_dection
+   cd person_name_dection
